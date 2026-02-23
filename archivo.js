@@ -8,10 +8,15 @@ function suma(){
 }
 
 function restar(){
-    var x1= document.getElementById("r1")
-    var x2= document.getElementById("r2")
+    var x1= document.getElementById("r1").value;
+    var x2= document.getElementById("r2").value;
     x1=parseInt(x1);
     x2=parseInt(x2);
     alert(x1-x2);
+
+}
+
+function multiplicar(){
+    
 
 }
