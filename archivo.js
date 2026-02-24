@@ -21,5 +21,5 @@ function multiplicar(){
     var m2 = document.getElementById("m2").value;
     m1=parseInt(m1);
     m2=parseInt(m2);
-    alert(m1*m2)
+    alert(m1*m2);
 }
