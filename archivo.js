@@ -23,3 +23,11 @@ function multiplicar(){
     m2=parseInt(m2);
     alert(m1*m2);
 }
+
+function division(){
+    var d1= document.getElementById("d1").value;
+    var d2= document.getElementById("d2").value;
+    d1=parseInt(d1)
+    d2=parseInt(d2)
+    alert(d1/d2)
+}
