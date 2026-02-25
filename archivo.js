@@ -1,26 +1,18 @@
-function suma(){
-    var num1 = parseFloat(document.getElementById("num1").value);
-    var num2 = parseFloat(document.getElementById("num2").value);
-    alert(num1 + num2);
-}
 
-function restar(){
-    var num1 = parseFloat(document.getElementById("num1").value);
-    var num2 = parseFloat(document.getElementById("num2").value);
-    alert(num1 - num2);
-}
+function operacion(){
+    var num1= document.getElementById("num1").value;
+    var num2= document.getElementById("num2").value;
+    num1=parseFloat(num1)
+    num2=parseFloat(num2)
+    var select= document.getElementById("operacion").value;
+    if (select=="suma"){
+        alert(num1+num2)
+    }else if (select == "resta"){
+        alert(num1-num2)
 
-function multiplicar(){
-    var num1 = parseFloat(document.getElementById("num1").value);
-    var num2 = parseFloat(document.getElementById("num2").value);
-    alert(num1 * num2);
-}
-
-function division(){
-    var num1 = parseFloat(document.getElementById("num1").value);
-    var num2 = parseFloat(document.getElementById("num2").value);
-    alert(num1 / num2);
-    if (a2==0){
-        alert("El denominador debe ser 0")
+    }else if (select == "multiplicacion"){
+        alert(num1*num2)
+    }else if (select == "division"){
+        alert(num1/num2)
     }
 }
